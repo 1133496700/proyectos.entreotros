@@ -1,0 +1,100 @@
+
+
+    //               VISTA MOBILE                            //
+
+
+@media only screen and (max-width: 768px){
+
+
+    .main-plantel{
+        height: 4300px;
+    
+        .plantel01{
+            text-align: center;
+            h1{
+                padding: 26px;
+                font-size: 45px;
+                font-family: 'Rubik Vinyl', cursive;
+                color: rgb(0, 28, 128);
+                
+            }
+            img{
+                width: 100%;
+                height: 300px;
+                
+                object-fit: cover;
+                
+            }
+        }
+        .plantel02{
+            text-align: center;
+            margin: 15px 0px;
+
+            img{
+                width: 95%;
+                
+            }
+        }
+    
+    }
+}
+
+
+
+
+
+
+        //        VISTA ESCRITORIO                        //
+
+@media only screen and (min-width: 768px){
+    .main-plantel{
+        height: 5900px;
+    
+        .plantel01{
+            text-align: center;
+            h1{
+                padding: 26px;
+                font-size: 60px;
+                font-family: 'Rubik Vinyl', cursive;
+                color: rgb(76, 13, 95);
+                
+            }
+            img{
+                width: 94%;
+                height: 600px;
+                
+                object-fit:scale-down;
+            }
+        }
+        .plantel02{
+            
+            text-align: center;
+            img{
+                width: 65%;
+                margin: 20px;
+            }
+        }
+        .plantel03{
+            justify-content: center;
+            display: flex;
+            margin: auto;
+        }
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+}

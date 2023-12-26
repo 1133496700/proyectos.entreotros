@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    width: 100%;
+    img{
+        height: 600px;
+    }
+}
+
+li{
+    list-style-type: none;
+}
+
+                // INDEX - PAGINA DE INICIO //
+                // VISTA MOBILE //
+
+@media only screen and (max-width: 768px){
+    
+    header{
+        height: 1120px;
+        background-color:$color-fuente01;
+        
+        .div-header{
+            .img-header{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        
+        .copa-00{
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            margin: 13px;
+            
+            .copa-01{
+                height: 190px;
+                width: 20%;
+                
+            }
+            .copa-02{
+                height: 240px;
+                width: 31%;
+            }
+        }
+        
+        
+        ul{
+            text-align: center;
+
+            li{
+                height: auto;
+                position: relative;
+                a{
+                    text-decoration: none;
+                }
+                .afa-png01{
+                    margin-top: 15px;
+                    width: 40%;
+                    height: 200px;
+                    object-fit: contain;
+                }
+            }
+        }
+
+
+
+    }
+
+    footer{
+        height: 250px;
+        width: 100%;
+        background-color: $back-footer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-around;
+        div{
+            
+            text-align: center;
+            margin: 10px;
+            flex-direction: column;
+            h1{
+                
+                color: rgba(16, 187, 70, 0.674);
+                font-family:$fuente-01;
+                font-size: 30px;
+                
+            }
+            h2{
+                margin-top: 15px;
+                font-family: $fuente-02;
+                color:rgba(16, 187, 70, 0.674);
+            }
+        }
+        nav{
+            
+            flex-direction: row;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            a{
+                img{
+                    width: 90%;
+                    height: 80px;
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+                // VISTA ESCRITORIO //
+
+
+@media only screen and (min-width: 768px){
+    header{
+        height: 1580px;
+        background-color:$color-fuente01;
+        
+        .div-header{
+            .img-header{
+                width: 100%;
+                height: 700px;
+            }
+
+        }
+        .copa-00{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            height: 420px;
+            .copa-01{
+                
+                width: 10%;
+                height: 250px;
+            }
+            .copa-01:hover{
+                width: 12%;
+                height: 320px;
+            }
+            .copa-02{
+                height: 320px;
+                width: 13%;
+            }
+            .copa-02:hover{
+                width: 15%;
+                height: 400px;
+            }
+        }
+        ul{
+            margin-top: 40px;
+            li{
+                text-align: center;
+                a{
+                    img{
+                        width: 23%;
+                        height: 290px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    footer{
+        background-color: $back-footer;
+        height: 214px;
+        div{
+            
+            text-align: center;
+            flex-direction: column;
+            h1{
+                
+                color: rgba(16, 187, 70, 0.674);
+                font-family:$fuente-01;
+                font-size: 48px;
+                
+            }
+            h2{
+                margin-top: 15px;
+                font-family: $fuente-02;
+                color:rgba(16, 187, 70, 0.674);
+            }
+        }
+        nav{
+            margin-top: 50px;
+
+            display: flex;
+            justify-content: space-around;
+            a{
+                img{
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+        }
+    }
+
+
+
+}
+
+
+
+
+
+
+                    // nav definitivo //
+                    // FONDO DE CAMPEON-AFA-PLANTEL // 
+
+                    // VISTA ESCRITORIO // 
+
+@media only screen and (min-width: 768px){
+
+
+                        .nav-def{
+                            .div-navescritorio{
+                                height: 100px;
+                                width: 100px;
+                            }
+
+                            background-color: grey;
+                            width: 100%;
+                            height: 150px;
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            div{
+                                img{
+                                    width: 100px;
+                                }
+                            }
+                            .div-def-copa{
+                                img{
+                                    
+                                    margin: 8px 25px;
+                                    width: 50px;
+                                    
+                                }
+                    
+                            }
+                    
+                    
+                        }
+                    
+                        .nav-def2{
+                            background-color: grey;
+                            height: 69px;
+                            ul{
+                                display: flex;
+                                justify-content: space-around;
+                    
+                                li{
+                                    margin: 10px 0px;
+                                    text-align: center;
+                                    border-top: 2px solid black;
+                                    border-bottom: 3px solid black;
+                                
+                                    a{
+                                        padding: 10px;
+                                        font-family: 'Fira Sans Extra Condensed', sans-serif;
+                                        text-decoration: none;
+                                        font-size: 38px;
+                                        color: rgb(10, 7, 151);
+                                }
+                                    a:hover{
+                                        color: rgb(239, 253, 255);
+                                    }
+                            }
+                                li:hover{
+                                    border-top: 3px solid rgb(88, 214, 206);
+                                    border-bottom: 2px solid rgb(88, 214, 206);
+                                }
+                        }
+                    }
+                    
+                    main{
+                        width: 100%;
+                        height: 1000px;
+                        background-image: linear-gradient(to top, rgb(12, 154, 189), white, rgb(12, 154, 189));
+                    
+                        
+                    }
+                    
+                    
+                    
+}
+                    
+                     // VISTA MOBILE //       
+                    
+@media only screen and (max-width: 768px){
+                    
+                    
+                        .nav-def{
+                            background-color: grey;
+                            width: 100%;
+                            height: 150px;
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            div{
+                                img{
+                                    width: 100px;
+                                }
+                            }
+                            .div-def-copa{
+                                img{
+                                    margin: 8px;
+                                    width: 50px;
+                                    
+                                }
+                    
+                            }
+                    
+                    
+                        }
+                    
+                        .nav-def2{
+                            background-color: grey;
+                            height: 55px;
+                            ul{
+                                display: flex;
+                                justify-content: space-around;
+                    
+                                li{
+                                    border-top: 2px solid black;
+                                    border-bottom: 3px solid black;
+                                    margin: 10px 0px;
+                                    text-align: center;
+                                
+                                    a{
+                                        padding: 10px;
+                                        font-family: 'Fira Sans Extra Condensed', sans-serif;
+                                        text-decoration: none;
+                                        font-size: 27px;
+                                        color: rgb(10, 7, 151);
+                                }
+                            }
+                        }
+                    }
+                    
+                    main{
+                        width: 100%;
+                        height: 1000px;
+                        background-image: linear-gradient(to top, rgb(12, 154, 189), white, rgb(12, 154, 189));
+
+                    
+                    }
+                    
+                    
+                    
+                    
+}
+                    
+                        
