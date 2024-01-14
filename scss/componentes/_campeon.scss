@@ -1,10 +1,76 @@
+a{
+    text-decoration: none;
+}
+.div-img{
+        height: 70px;
+        width: 70px;
+        text-align: center;
+        
+}
+
+.estilo-divCarrito{
+    width: 385px;
+    height: 550px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    position: absolute;
+    left: 25px;
+
+    th{
+        font-size: 22px;
+    }
+}
+#carrito{
+    display:none;
+}
+.div-img:hover{
+
+    #carrito{
+        display: block;
+        #vaciar-carrito{
+            text-decoration: none;
+            font-size: 22px;
+            color: rgb(53, 25, 179);
+            font-weight: 500;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            border-top: 2px solid rgb(0, 0, 0);
+            border-bottom: 2px solid black;
+        }
+    }
+    
+}
+.carrito-abierto{
+    th{
+        padding: 3px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 500;
+        color: blue;
+    }
+    td{
+        padding-top: 7px;
+        color: black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        a{
+            color: red;
+            font-weight: 400;
+            font-size: 26px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border: 3px solid red;
+            border-radius: 10px;
+        }
+        img{
+            width: auto;
+        }
+    }
+}
+
 main{
     
 
     .productos{
         width: 100%;
         height: 310px;
-        border: 2px solid black;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -12,7 +78,8 @@ main{
         
         .row-prod{
             border: 2px solid black;
-            width: 32%;
+            border-radius: 4px;
+            width: 27%;
             height: 290px;
             display: flex;
             flex-direction: column;
@@ -20,26 +87,35 @@ main{
             align-items: center;
 
             img{
-                width: 100%;
+                width:auto;
                 height: 150px;
             }
             h1{
                 text-align: center;
                 font-size: 20px;
-                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-                font-weight: 400;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: 700;
                 height: 50px;
             }
             p{
                 height: 30px;
                 font-weight: 600;
-                font-size: 20px;
+                font-size: 21px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: 700;
+                color: rgb(67, 138, 39);
             }
             button{
-                height: 39px;
+                height: 43px;
                 width: 40%;
                 font-size: 15px;
                 font-weight: 300;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: 700;
+            }
+            button:hover{
+                background-color: crimson;
+                font-size: 16px;
             }
         }
         

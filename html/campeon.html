@@ -10,13 +10,38 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <title>Document</title>
 </head>
-<body">
+<body>
     
     <div  class="nav-def">
-        <div class="div-navescritorio">
+        
+        <div class="div-img">
+            <img src="../img/carritopng.png" alt="">
 
+            <ul>
+                <li>
+                        <div class="estilo-divCarrito" id="carrito">
+                                
+                                <table id="lista-carrito" class="carrito-abierto">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th>Cantidad</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="carrito-abierto"></tbody>
+                                </table>
+
+                                <a href="#" id="vaciar-carrito" class="button u-full-width acomodado">Vaciar Carrito</a>
+                        </div>
+                </li>
+            </ul>
         </div>
+            
         <div>
+            
             <a href="../index.html"><img src="../img/afapng.png" alt="afa"></a>
         </div>
         <div class="div-def-copa">
@@ -33,78 +58,82 @@
             <li><a href="../html/afa.html">A.F.A</a></li>
             <li><a href="../html/campeon.html">PRODUCTOS</a></li>
         </ul>
+        
     </nav>
     
     
     <main>
-        <section class="productos">
-            <div class="row-prod">
-                <img src="" alt="">
-                <h1>Camiseta campeones 2022</h1>
-                <p>$80.000</p>
-                <button type="button">Agregar al carrito</button>
-            </div>
-
-            <div class="row-prod">
-                <img src="" alt="">
-                <h1>Copa del mundo</h1>
-                <p></p>
-                <button type="button">Agregar al carrito</button>
-            </div>
-
-            <div class="row-prod">
-                <img src="" alt="">
-                <h1>Piluso campeones</h1>
-                <p></p>
-                <button type="button">Agregar al carrito</button>
-            </div>
-        </section>
-
-        <section class="productos">
-            <div class="row-prod">
-                <img src="" alt="">
-                <h1>sdf</h1>
-                <p></p>
-                <button type="button">Agregar al carrito</button>
-            </div>
-
-            <div class="row-prod">
-                <img src="" alt="">
-                <h1>fgggg</h1>
-                <p></p>
-                <button type="button">Agregar al carrito</button>
-            </div>
-
-            <div class="row-prod">
-                <img src="" alt="">
-                <h1>hfghf</h1>
-                <p></p>
-                <button type="button">Agregar al carrito</button>
-            </div>
-        </section>
-
-        <section class="productos">
-            <div class="row-prod">
-                <img src="" alt="">
-                <h1>C</h1>
-                <p>$80.000</p>
-                <button type="button">Agregar al carrito</button>
-            </div>
-
-            <div class="row-prod">
-                <img src="" alt="">
-                <h1>fgggg</h1>
-                <p></p>
-                <button type="button">Agregar al carrito</button>
-            </div>
-
-            <div class="row-prod">
-                <img src="" alt="">
-                <h1>hfghf</h1>
-                <p></p>
-                <button type="button">Agregar al carrito</button>
-            </div>
-        </section>
+        
+        <div id="lista-cursos">
+            <section  class="productos">
+                <div class="row-prod infoCard">
+                    <img src="../img/copadelmundopng.png" alt="">
+                    <h1>Camiseta campeones 2022</h1>
+                    <p>$80.000</p>
+                    <button type="button" class="agregar-carrito" data-id="1">Agregar al carrito</button>
+                </div>
+    
+                <div class="row-prod infoCard">
+                    <img src="../img/messi-campeon.jpg" alt="">
+                    <h1>Copa del mundo</h1>
+                    <p>$50.000</p>
+                    <button type="button" class="agregar-carrito" data-id="2">Agregar al carrito</button>
+                </div>
+    
+                <div class="row-prod infoCard">
+                    <img src="../img/instagram.png" alt="">
+                    <h1>Piluso campeones</h1>
+                    <p>$23.000</p>
+                    <button type="button" class="agregar-carrito" data-id="3">Agregar al carrito</button>
+                </div>
+            </section>
+    
+            <section  class="productos">
+                <div class="row-prod infoCard">
+                    <img src="../img/copadelmundopng.png" alt="">
+                    <h1>Camiseta campeones 2022</h1>
+                    <p>$80.000</p>
+                    <button type="button" class="agregar-carrito" data-id="4">Agregar al carrito</button>
+                </div>
+    
+                <div class="row-prod infoCard">
+                    <img src="../img/messi-campeon.jpg" alt="">
+                    <h1>Copa del mundo</h1>
+                    <p>$50.000</p>
+                    <button type="button" class="agregar-carrito" data-id="5">Agregar al carrito</button>
+                </div>
+    
+                <div class="row-prod infoCard">
+                    <img src="../img/instagram.png" alt="">
+                    <h1>Piluso campeones</h1>
+                    <p>$23.000</p>
+                    <button type="button" class="agregar-carrito" data-id="6">Agregar al carrito</button>
+                </div>
+            </section>
+    
+            <section  class="productos">
+                <div class="row-prod infoCard">
+                    <img src="../img/piluso.png" alt="">
+                    <h1>Piluso adidas campeones 2022</h1>
+                    <p>$28.000</p>
+                    <button type="button" class="agregar-carrito" data-id="7">Agregar al carrito</button>
+                </div>
+    
+                <div class="row-prod infoCard">
+                    <img src="../img/camiseta-2estrella.jpg" alt="">
+                    <h1>Casaca 2 estrellas Argentina</h1>
+                    <p>$70.000</p>
+                    <button type="button" class="agregar-carrito" data-id="8">Agregar al carrito</button>
+                </div>
+    
+                <div class="row-prod infoCard">
+                    <img src="../img/3estre.png" alt="">
+                    <h1>Casaca campeones 2022 3 estrellas. adidas.</h1>
+                    <p>$150.000</p>
+                    <button type="button" class="agregar-carrito" data-id="9">Agregar al carrito</button>
+                </div>
+            </section>
+        </div>
 
     </main>
     <footer>
@@ -114,8 +143,10 @@
         </div>
         <nav>
             <a href=""><img src="../img/instagram.png" alt="instagram"></a>
+            <a href="../html/enviarForm.html"><img src="../img/instagram.png" alt="instagram"></a>
             <a href=""><img src="../img/linkedin.png" alt="linkedin"></a>
         </nav>
     </footer>
+    <script src="../js/script.js"></script>
 </body>
 </html>

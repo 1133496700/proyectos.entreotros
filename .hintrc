@@ -9,6 +9,13 @@
         "link-name": "off",
         "button-name": "off"
       }
-    ]
+    ],
+    "axe/structure": [
+      "default",
+      {
+        "listitem": "off"
+      }
+    ],
+    "button-type": "off"
   }
 }
